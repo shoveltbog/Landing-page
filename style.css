@@ -3,6 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* heading layouts & style */
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -67,4 +69,11 @@ button {
     border-radius: 6px;
     padding: 8px 24px;
     border: none;
+}
+
+/* section one layouts & style */
+
+.section-one {
+    background-color: white;
+    color: black;
 }
