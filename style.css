@@ -26,13 +26,18 @@ body {
 .header-content {
     display: flex;
     justify-content: center;
-    margin: 0px 200px;
+    margin: 100px 200px;
 }
 
 .herobox {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin: 0px;
+}
+
+.herobox button {
+    width: fit-content;
 }
 
 .imgplaceholder {
@@ -76,13 +81,13 @@ button {
 .section-one {
     background-color: white;
     color: black;
+    padding: 80px 0px;
 }
 
 .section-one h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 60px 0px;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
@@ -113,4 +118,29 @@ button {
 
 .card-text {
     text-align: center;
+}
+
+/* section 2 styling & layout */
+
+.section-two {
+    background-color: #e5e7eb;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    max-width: 800px;
+    margin-bottom: 0px;
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 300px;
+    font-size: 24px;
 }
