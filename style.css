@@ -182,3 +182,13 @@ button {
 .bottom-button {
     border: solid 1px white;
 }
+
+/* footer styling */
+
+.footer {
+    padding: 40px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
